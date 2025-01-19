@@ -36,12 +36,13 @@ video {
 
 /* Enlaces dentro del párrafo */
 p a {
-    color: #3498db; /* Azul */
-    text-decoration: none;
+    color: #0056b3; /* Azul */
+    text-decoration: underline;
     font-weight: bold;
 }
 p a:hover {
-    text-decoration: underline; /* Subrayado cuando pasas el ratón*/
+    color: #003580; /* Más oscuro para hover */
+    text-decoration:none; 
 }
 
 /* Footer */
